@@ -1,0 +1,122 @@
+#buttoncol{
+  background-color:rgb(118,51,202);
+}
+#buttoncol:hover{
+    background-color: rgb(0,12,96);
+}
+#buttoncol1:hover{
+    background-color: rgb(0,12,96);
+}
+.headingcol{
+    color: #000c60;
+}
+.mainHeading{
+    font-size: 70px;
+}
+#divImage{
+    height: 30vh;
+    background-image: url("https://kona-digital.com/images/herobg.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    opacity: 75%;
+   
+   
+}
+#bgimage{
+    background-image: url("https://kona-digital.com/images/mapimg.png");
+    background-repeat: no-repeat;
+
+}
+#image1{
+ position: relative; 
+ bottom: 50px;
+}
+#image2{
+position: relative; 
+bottom: 100px;
+}
+#image3{
+position: relative; 
+bottom: 50px;
+}
+.headingcol1{
+    color: rgb(0,12,96);
+}
+#headingBg{
+    background: rgb(255,235,235);
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.carousel-indicators .active {
+    background-color: #000;
+}
+/* #blurimg1{
+    background-image: url("https://kona-digital.com/images/blur3.png");
+    background-repeat: no-repeat;
+}
+#blurimg2{
+    background-image: url("https://kona-digital.com/images/blur4.png");
+    background-repeat: no-repeat;
+   
+} */
+
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    color: rgb(118,51,202);
+    background-color: transparent;
+    box-shadow: none;
+}
+
+
+.accordion-header h6{
+    font-size: 20px;
+}
+.accordion-body p{
+    font-size: 16px;
+}
+#aboveFooter{
+    background-color: rgb(232,240,247);
+}
+.col li:hover{
+    color: rgb(118,51,202);;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}
+#img1{
+    position: absolute;
+    z-index: -1;
+}
+
+#pipeline{
+    position: absolute;
+    top: 800px;
+    z-index: -3;
+    animation: zoom-in-zoom-out1 5s ease infinite;
+}
+@keyframes zoom-in-zoom-out1 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-3%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+#img2{
+    position: absolute;
+    left: 760px;
+    top: 600px;
+    z-index: -2;
+    
+}
+#nearimg1{
+    position: relative;
+    z-index: 2;
+}
