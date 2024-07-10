@@ -58,23 +58,24 @@
                     <li class="nav-item">
                         <a class="nav-link me-4" href="#">Resources</a>
                     </li>
-                    <button type="button" class="btn text-white p-2" id="buttoncol">Start Now</button>
+                    <button type="button" class="btn text-white p-2" data-bs-toggle="modal"data-bs-target="#exampleModal" id="buttoncol">Start Now</button>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <h6 class="text-center mt-5 pt-3 headingcol">MEET US</h6>
-    <h1 class="text-center headingcol mainHeading">Revolutionizing Business </h1>
-    <h1 class="text-center headingcol mainHeading">With Custom Ai Apps</h1>
+    <h6 class="text-center mt-5 pt-3 headingcol fw-bold">MEET US</h6>
+    <h1 class="text-center headingcol mainHeading fw-bold">Revolutionizing Business </h1>
+    <a class="p-3  float-end me-3 btn" id="call" ><img src="https://kona-digital.com/images/call_o_o.png" alt=""></a>
+    <h1 class="text-center headingcol mainHeading ms-4">With Custom Ai Apps</h1>
     <p class="text-center" style="font-size: 20px;">levate your business operations with our state-of-the-art AI-powered
         solutions.</p>
 
 
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-5">
-        <button class="btn btn-outline-dark  me-md-2" type="button" id="buttoncol1">Know More</button>
-        <button class="btn text-white" id="buttoncol" type="button">Ask For Free Demo</button>
+        <button class="btn btn-outline-dark  me-md-2"data-bs-toggle="modal"data-bs-target="#exampleModal" type="button" id="buttoncol1">Know More</button>
+        <button class="btn text-white" id="buttoncol"data-bs-toggle="modal"data-bs-target="#exampleModal" type="button">Ask For Free Demo</button>
     </div>
 
     <div id="divImage" class="mt-5">
@@ -121,19 +122,20 @@
 
 
     <div class="container-fluid" id="nearimg1">
-    <p class="text-center fs-5 fw-medium headingcol1 mt-5 pt-5" id="img-1"><span class="p-2 rounded-pill" id="headingBg">INDUSTRY
-            SOLUTION</span></p>
-    <div class="text-center mt-4 mb-5  pb-5">
-        <h2 class="fw-bold headingcol">Kona Digital</h2>
-        <h1 class="fw-normal ms-3 headingcol">Revolutionizing Industries with a Feature-Rich,</h1>
-        <h1 class="fw-normal ms-3 headingcol">AI-Powered Ecosystem</h1>
+        <p class="text-center fs-5 fw-medium headingcol1 mt-5 pt-5" id="img-1"><span class="p-2 rounded-pill"
+                id="headingBg">INDUSTRY
+                SOLUTION</span></p>
+        <div class="text-center mt-4 mb-5  pb-5">
+            <h2 class="fw-bold headingcol">Kona Digital</h2>
+            <h1 class="fw-normal ms-3 headingcol">Revolutionizing Industries with a Feature-Rich,</h1>
+            <h1 class="fw-normal ms-3 headingcol">AI-Powered Ecosystem</h1>
+        </div>
+        <div>
+            <img src="https://kona-digital.com/images/blue1.png" alt="" id="img1">
+            <img src="https://kona-digital.com/images/blur2.png" alt="" id="img2">
+            <img src="https://kona-digital.com/images/ropeline.png" alt="" id="pipeline" width="97%">
+        </div>
     </div>
-    <div>
-        <img src="https://kona-digital.com/images/blue1.png" alt="" id="img1">
-        <img src="https://kona-digital.com/images/blur2.png" alt="" id="img2">
-        <img src="https://kona-digital.com/images/ropeline.png" alt="" id="pipeline" width="97%">
-    </div>
-   </div>
 
 
     <div class="container text-center mb-5 pb-5 " style="width: 65%;">
@@ -172,10 +174,10 @@
             </div>
         </div>
     </div>
-    
+
     <div class="mt-5 pt-5">
-    <h1 class="text-center fw-bold headingcol1 ">Trusted by <span class="fw-medium"
-            style="color:rgb(118,51,202);">millions</span></h1>
+        <h1 class="text-center fw-bold headingcol1 ">Trusted by <span class="fw-medium"
+                style="color:rgb(118,51,202);">millions</span></h1>
 
     </div>
     <div class="container mb-5 pb-5" id="bgimage">
@@ -385,7 +387,7 @@
                 <h1 class="text-center fw-bold" style="color:rgb(118,51,202);">Let’s connect. </h1>
                 <p class="text-center fw-normal" style="font-size: 16px;">Whether you have a groundbreaking idea or a
                     challenging project <br>in mind, AI Hub is here to make it a reality.</p>
-                <p class="text-center"><button type="button" class="btn text-white  px-5 " id="buttoncol">Start
+                <p class="text-center"><button type="button" class="btn text-white   px-5 " data-bs-toggle="modal"data-bs-target="#exampleModal" id="buttoncol">Start
                         Now</button></p>
             </div>
             <div class="col-6" id="blurimg2">
@@ -394,16 +396,46 @@
         </div>
     </div>
 
+
+    <!-- button actions -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="width: 80%;">
+                <div class="modal-header imgForButton">
+                    <h1 class="modal-title fs-4 text-white " id="exampleModalLabel ">Start Now</h1>
+                    <button type="button" class="btn-close"data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                        <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                        <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Phone">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                        <div class="d-grid gap-2 mt-4">
+                            <button class="btn btn-primary imgForButton1" type="button">Submit</button>
+                          </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <footer>
-        
+
         <div class="container-fluid mt-5 mb-5">
             <div class="row" style="margin-left: 5em;">
-                
-                <div class="col ms-5" >
+
+                <div class="col ms-5">
                     <div>
                         <img src="https://kona-digital.com/images/ftlog.png" alt="" width="150px">
                     </div>
-                    <p style="font-size: 10.5px; width: 140%;" class="text-start mt-2 fw-normal">At our company, we are dedicated to supporting you in the seamless creation of exceptional
+                    <p style="font-size: 10.5px; width: 140%;" class="text-start mt-2 fw-normal">At our company, we are
+                        dedicated to supporting you in the seamless creation of exceptional
                         content that is both efficient and high in quality. Our expert team and advanced AI-powered
                         tools work hand in hand to assist you in effortlessly producing top-notch content that
                         captivates your audience.</p>
@@ -447,10 +479,11 @@
                     <div>
                         <img src="https://kona-digital.com/images/fticon.png.png" alt="" width="180px">
                     </div>
-                  
+
                 </div>
 
             </div>
+
     </footer>
 
 
