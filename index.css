@@ -1,95 +1,104 @@
-#buttoncol{
-  background-color:rgb(118,51,202);
-}
-#buttoncol:hover{
+#buttoncol, #buttoncol:hover, #buttoncol1:hover {
     background-color: rgb(0,12,96);
 }
-#buttoncol1:hover{
-    background-color: rgb(0,12,96);
+
+#buttoncol {
+    background-color: rgb(118,51,202);
 }
-.headingcol{
+
+.headingcol, .headingcol1 {
     color: #000c60;
 }
-.mainHeading{
+
+.mainHeading {
     font-size: 70px;
 }
-#divImage{
+
+#divImage {
     height: 30vh;
     background-image: url("https://kona-digital.com/images/herobg.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     opacity: 75%;
-   
-   
 }
-#bgimage{
+
+#bgimage {
+    width: 100%;
     background-image: url("https://kona-digital.com/images/mapimg.png");
     background-repeat: no-repeat;
+}
 
+#image1, #image2, #image3 {
+    position: relative;
 }
-#image1{
- position: relative; 
- bottom: 50px;
+
+#image1 {
+    bottom: 40px;
 }
-#image2{
-position: relative; 
-bottom: 100px;
+
+#image2 {
+    bottom: 100px;
 }
-#image3{
-position: relative; 
-bottom: 50px;
+
+#image3 {
+    bottom: 50px;
 }
-.headingcol1{
-    color: rgb(0,12,96);
-}
-#headingBg{
+
+#headingBg {
     background: rgb(255,235,235);
 }
+
 .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: #ccc;
 }
+
 .carousel-indicators .active {
     background-color: #000;
 }
 
-
-.accordion-button:focus,
-.accordion-button:not(.collapsed) {
+.accordion-button:focus, .accordion-button:not(.collapsed) {
     color: rgb(118,51,202);
     background-color: transparent;
     box-shadow: none;
 }
 
-
-.accordion-header h6{
+.accordion-header h6 {
     font-size: 20px;
 }
-.accordion-body p{
+
+.accordion-body p {
     font-size: 16px;
 }
-#aboveFooter{
+
+#aboveFooter {
     background-color: rgb(232,240,247);
+    margin-top: 200px;
 }
-.col li:hover{
-    color: rgb(118,51,202);;
+
+.col li:hover {
+    color: rgb(118,51,202);
 }
-.zoom:hover{
+
+.zoom:hover {
     transform: scale(1.1);
 }
-#img1{
+
+#img1 {
+    top: 10%;
     position: absolute;
     z-index: -1;
 }
 
-#pipeline{
+#pipeline {
     position: absolute;
     top: 800px;
     z-index: -3;
     animation: zoom-in-zoom-out1 5s ease infinite;
 }
+
 @keyframes zoom-in-zoom-out1 {
     0% {
         transform: translateY(0);
@@ -101,35 +110,226 @@ bottom: 50px;
         transform: translateY(0);
     }
 }
-#img2{
+
+#img2 {
     position: absolute;
     left: 760px;
     top: 600px;
     z-index: -2;
-    
 }
-#nearimg1{
+
+#nearimg1 {
     position: relative;
     z-index: 2;
 }
-#call{
+
+#call {
     background-color: rgb(164,41,215);
     position: fixed;
-    top:80%;
+    top: 80%;
     right: 0;
     z-index: 5;
     border-radius: 200px 200px 200px 0px;
--moz-border-radius: 200px 200px 200px 0px;
--webkit-border-radius: 200px 200px 200px 0px;
-border: 0px solid #000000;
+    border: 0px solid #000000;
 }
 
-.imgForButton{
+
+.imgForButton {
     background-image: linear-gradient(to right, #ff9b71 0%, #5a39c2 60%, #9e2ad5 100%);
     width: 100%;
-    
 }
-.imgForButton1{
+
+.imgForButton1 {
     background-image: linear-gradient(90deg, #4e3bbf, #a928d8);
 }
-        
+
+@media (max-width: 576px) {
+    .mobile{
+        display: none;
+    }
+    .navbar-brand img {
+        position: absolute;
+        margin-bottom: 20px;
+        left: 10px;
+    }
+    .navbar-toggler {
+        margin-top: 50px !important;
+    }
+    .navbar-collapse {
+        display: none !important;
+    }
+    .navbar-toggler.collapsed + .navbar-collapse {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .navbar-nav {
+        width: 100%;
+    }
+    .navbar-nav .nav-item {
+        width: 100%;
+    }
+    .navbar-nav .nav-link, .navbar-nav .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mainHeading {
+        font-size: 49px;
+    }
+    #image2 {
+        margin-top: 100px;
+    }
+    .d-grid .btn {
+        width: 50%;
+        margin-left: 100px;
+    }
+    .row {
+        margin-left: 0 !important;
+        gap: 20px !important;
+    }
+    .col-12.col-md-4 {
+        width: 100% !important;
+    }
+    .col-12.col-md-4 img {
+        width: 100%;
+    }
+    .arrow-icon {
+        width: 20px !important;
+    }
+    .container {
+        width: 100% !important;
+    }
+    .col-12.col-md-6 {
+        padding: 20px !important;
+    }
+}
+
+@media (min-width: 577px) {
+    .navbar-nav {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.arrow-icon {
+    width: 20px;
+    height: auto;
+}
+
+body, html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+    .carousel-control-prev, .carousel-control-next {
+        display: none !important;
+    }
+    .navbar-brand {
+        margin-top: 0;
+    }
+}
+
+.pathone, .pathtwo, .paththree, .pathfour {
+    position: absolute;
+    animation: in-out 10s ease infinite;
+}
+
+.pathone {
+    right: 26%;
+    top: 38%;
+}
+
+.pathtwo {
+    right: 30%;
+    top: 55%;
+}
+
+.paththree {
+    left: 28%;
+    top: 20%;
+}
+
+.pathfour {
+    left: 15%;
+    top: 28%;
+}
+
+@keyframes in-out {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(0.1,0.1);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+* {
+    font-family: Poppins, sans-serif;
+}
+
+.square {
+    z-index: 2;
+    background-color: #ffff;
+    opacity: 70%;
+}
+
+.cites {
+    position: relative;
+}
+
+#red {
+    position: absolute;
+    margin-right: 1000px;
+}
+
+#blue {
+    position: absolute;
+    margin-left: 1200px;
+}
+
+#ropeline {
+    position: absolute;
+    margin-top: 150px;
+    z-index: 1;
+    animation: zoom-in-zoom-out1 5s ease infinite;
+}
+
+#neardropdown {
+    position: absolute;
+    left: -2%;
+    z-index: -1;
+    margin-bottom: 400px;
+}
+
+.fot {
+    margin-left: 80px;
+    margin-top: 400px;
+}
+.custom-popover .popover-body {
+    font-size: 1.4rem; 
+  }
+.custom-popover .popover-header {
+ font-size: 20px; 
+ background-image: linear-gradient(to right, #ff9b71 0%, #5a39c2 60%, #9e2ad5 100%);
+ color: #ffff;
+}
+
+@media only screen and (min-width: 1024px) {
+    .reviews{
+        display: none;
+    }
+    
+}
