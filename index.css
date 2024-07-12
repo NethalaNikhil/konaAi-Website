@@ -144,6 +144,15 @@
 }
 
 @media (max-width: 576px) {
+    footer{
+        margin-right: 150px;
+    }
+    .txt{
+       padding-right: 100px;
+    }
+    #blue{
+        display: none;
+    }
     .mobile{
         display: none;
     }
