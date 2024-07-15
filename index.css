@@ -616,6 +616,15 @@ body, html {
     margin-top: 100px;
 }
 
+/* .platform1{
+    background-image: url("https://kona-digital.com/images/whatcanbg.svg");
+    height: 60vh;
+    width: 120%;
+    position: relative;
+    top:100px;
+    right:200px;
+} */
+
 @media (max-width: 576px) {
     .platform-item img {
         width: 60px;
@@ -638,5 +647,26 @@ body, html {
     }
     .dropdown-menu{
         text-align: center;
+    }
+}
+
+@media (min-width: 1800px) {
+
+    .prows{
+        margin-left: 800px !important;
+    }
+    #productHeading{
+        
+      margin-left: 254px !important;
+
+    }
+    .solutionprob{
+        margin-left: 445px
+    }
+    .sobtn{
+        margin-right: 465px;
+    }
+    #pheadingdiv{
+        margin-left: 612px;
     }
 }
