@@ -1,4 +1,4 @@
-#buttoncol, #buttoncol:hover, #buttoncol1:hover {
+#buttoncol, #buttoncol:hover, #buttoncol1:hover ,#pheadingbtn:hover,#sheadingbtn:hover{
     background-color: rgb(0,12,96);
 }
 
@@ -145,7 +145,7 @@
 
 @media (max-width: 576px) {
     footer{
-        margin-right: 150px;
+        margin-right: 180px;
     }
     .txt{
        padding-right: 100px;
@@ -341,4 +341,233 @@ body, html {
         display: none;
     }
     
+}
+
+#productHeading{
+    height: 60vh;
+    background-image: url('https://kona-digital.com/images/productbanner.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    opacity: 90%;
+}
+#pheadfont{
+    width: 75%; 
+    width: 75%;
+    padding-top: 80px;
+    line-height: 48px;
+    text-align: left;
+    margin-left: 100px;
+}
+#pheadingpar
+{
+    padding-left: 60px;
+}
+#pheadingdiv{
+    margin-left: 50px;
+}
+#pheadingpar{
+    width: 75%;
+    margin-left: 40px;
+    color :#212529;
+}
+
+#pheadingbtn{
+    margin-left: 100px;
+    background-color: rgb(118,51,202) ;
+    margin-top: 10px;
+}
+.ppar{
+   width: 644px;
+}
+@media (max-width: 600px) {
+    #productHeading{
+        height: 150vh;
+    }
+    #pheadfont{
+       width: 363px;
+       font-size: 50px ;
+       padding-right: 0px;
+       margin-left: -84px;
+       text-align: center;
+       line-height: 50px;
+
+    }
+    #pheadingImg{
+        display: none;
+    }
+    #pheadingpar{
+        width: 121%;
+        text-align: center;
+        margin-left: -100px;
+    }
+    #pheadingbtn{
+        margin-left: 13px;
+    
+    }
+    .prows{
+        width: 368px !important;
+    }
+    #konado{
+       .pheadsize{
+        font-size: 45px;
+       }
+       .ppar{
+        width: 365px !important;
+        line-height: 34px;
+       }
+    }
+    .head{
+        margin-left: 100px;
+    }
+    .head1{
+        width: 324px !important;
+        text-align: center;
+        margin-top: 33px;
+        margin-left: -27px;
+        font-size: 40px;
+    }
+    .colorhead{
+            background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+            font-size: 50px;
+            font-weight: 500;
+            margin: 20px 0 10px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+    .head2 {
+        width: 97% !important;
+        text-align: center;
+        margin-left: -5px;
+    }
+    .icons {
+        margin-left: 42px;
+    }
+    .secIcon{
+        margin-left: -23;
+    }
+    .space{
+        margin-top: 20px;
+    }
+    #sheading{
+        height: 175vh !important;
+    }
+    #sheadfont{
+        width: 103% !important;
+        padding-top: 36px !important;
+        line-height: 48px !important;
+        text-align: start;
+        margin-left: -74px !important;
+        font-size: 35px !important;
+    }
+    #sheadingpar{
+        width: 120% !important;
+        margin-left: -73px !important;
+        margin-top: 5px !important;
+    }
+    #sheadingbtn{
+        margin-left: -72px !important;
+    }
+    #sheadingImg{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .servicetxt{
+        margin-top: 700px !important;
+    }
+    .simg1{
+        max-width: 131% !important;
+        margin-left: -41px;
+    }
+    .shead2{
+        width: 327px !important;
+        margin-left: -33px;
+    }
+    .shead{
+        width: 341px !important;
+        margin-left: -30px;
+        padding: 10px !important;
+    }
+    .sohead{
+        margin-left: -44px !important;
+        
+    }
+    #soheadfont {
+        width: 113% !important;
+        padding-top: 10px !important;
+        line-height: 43px !important;
+        text-align: start !important;
+        margin-left: -32px !important;
+        font-size: 41px !important;
+    }
+    .sohead2 {
+        width: 260px !important;
+        margin-left: -33px !important;
+    }
+    .sobtn {
+        width: 153%;
+        margin-left: -135px;
+    }
+    .pheadingbtn{
+        width: 325px !important;
+    }
+    .movhead{
+        margin-left: -52px !important;
+    }
+}
+.forbg{
+    background-color: rgb(243,250,249);
+
+}
+.gradient-text {
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.gradient-text1 {
+    background: linear-gradient(90deg, #272657 0%, #5391E4 48.1%, #272657 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+#sheading{
+    background-color: rgb(233,234,245);
+}
+#sheadfont{
+    width: 75%;
+    padding-top: 80px;
+    line-height: 48px;
+    text-align: start;
+    margin-left: 59px;
+    font-size: 35px;
+}
+#sheadingpar{
+    width: 78%;
+    margin-left: 59px;
+}
+#sheadingbtn{
+    margin-left: 58px;
+    background-color: rgb(118,51,202) ;
+}
+#sheading{
+    height: 80vh;
+}
+#soheadfont{
+    width: 68%;
+    padding-top: 10px;
+    line-height: 58px;
+    text-align: start;
+    margin-left: 120px;
+    font-size: 50px;
+}
+.sohead{
+    margin-left: 120px ;
+    padding: 11px !important;
+}
+.padt100{
+    margin-top: 100px;
 }
