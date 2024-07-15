@@ -383,6 +383,24 @@ body, html {
     #productHeading{
         height: 150vh;
     }
+    .sicon{
+        width: 170px;
+        margin-left: -70px;
+    }
+    .solicon2{
+        width: 220px;
+        margin-left: -99px;
+    }
+    .solutionhead{
+        margin-left: 9px !important;
+        width: 383px;
+        font-size: 44px;
+    }
+    .solutiontxt1{
+        margin-left: -26px !important;
+        width: 379px;
+        font-size: 27px;
+    }
     #pheadfont{
        width: 363px;
        font-size: 50px ;
@@ -439,7 +457,7 @@ body, html {
         text-align: center;
         margin-left: -5px;
     }
-    .icons {
+    .picons {
         margin-left: 42px;
     }
     .secIcon{
@@ -489,8 +507,12 @@ body, html {
         padding: 10px !important;
     }
     .sohead{
-        margin-left: -44px !important;
+        margin-left: -52px !important;
         
+    }
+    .freetxt{
+        margin-left: -23px !important;
+        width: 154px;
     }
     #soheadfont {
         width: 113% !important;
@@ -499,6 +521,19 @@ body, html {
         text-align: start !important;
         margin-left: -32px !important;
         font-size: 41px !important;
+    }
+    #soheadfont1{
+        width: 344px !important;
+        margin-left: -159px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .soheadpar{
+        width: 355px !important;
+        margin-top: 20px !important;
+        font-size: 16px !important;
+        margin-left: -170px !important;
+        text-align: center;
     }
     .sohead2 {
         width: 260px !important;
@@ -514,6 +549,15 @@ body, html {
     .movhead{
         margin-left: -52px !important;
     }
+    .solheading{
+        margin-top: 15px;
+        margin-left: 9px;
+    }
+    .simg2 {
+        max-width: 234% !important;
+        margin-left: -165px;
+    }
+   
 }
 .forbg{
     background-color: rgb(243,250,249);
@@ -570,4 +614,23 @@ body, html {
 }
 .padt100{
     margin-top: 100px;
+}
+
+@media (max-width: 576px) {
+    .platform-item img {
+        width: 60px;
+        height: auto; 
+    }
+    .platform-item h5,
+    .platform-item p {
+        font-size: 10px;
+        margin-left: 15px!important;
+    }
+    .lastimg{
+        display: none !important;
+    }
+    .images{
+        width: 142% !important;
+        margin-left: -41px !important;
+    }
 }
