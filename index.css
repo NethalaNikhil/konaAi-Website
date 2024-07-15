@@ -633,4 +633,10 @@ body, html {
         width: 142% !important;
         margin-left: -41px !important;
     }
+    .modal-content{
+        margin-left: 40px;
+    }
+    .dropdown-menu{
+        text-align: center;
+    }
 }
