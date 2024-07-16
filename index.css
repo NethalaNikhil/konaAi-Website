@@ -491,7 +491,7 @@ body, html {
         padding-left: 15px;
     }
     .servicetxt{
-        margin-top: 700px !important;
+        margin-top: 176px !important;
     }
     .simg1{
         max-width: 131% !important;
@@ -528,13 +528,13 @@ body, html {
         text-align: center;
         font-size: 40px;
     }
-    .soheadpar{
-        width: 355px !important;
+    .soheadpar {
+        width: 305px !important;
         margin-top: 20px !important;
-        font-size: 16px !important;
-        margin-left: -170px !important;
+        font-size: 17px !important;
+        margin-left: -150px !important;
         text-align: center;
-    }
+    }   
     .sohead2 {
         width: 260px !important;
         margin-left: -33px !important;
@@ -550,12 +550,24 @@ body, html {
         margin-left: -52px !important;
     }
     .solheading{
+        width: 100%;
         margin-top: 15px;
         margin-left: 9px;
     }
     .simg2 {
-        max-width: 234% !important;
+        max-width: 333% !important;
         margin-left: -165px;
+    }
+    .forproduct4{
+        max-width: 42%;
+    }
+    .formobile{
+        margin-left: -28px;
+    }
+    .solutionhead {
+        margin-left: 9px !important;
+        width: 308px;
+        font-size: 44px;
     }
    
 }
@@ -670,3 +682,136 @@ body, html {
         margin-left: 612px;
     }
 }
+
+@media only screen and (width: 768px) {
+    .fortablet {
+        margin-left: -177px;
+    }
+    .fortablet1 {
+        width: 827px;
+    }
+    .fortablet2{
+        margin-left: 5rem !important;
+    }
+    .fortablet3{
+        margin-left: -3rem !important;
+    }
+    .fortablet4{
+        width: 134px !important;
+    }
+    .fortablet5{
+        width: 119px !important;
+        margin-left: -40px !important;
+    }
+    .fortablet6{
+        margin-left: 49px !important;
+    }
+    #blue{
+        display: none;
+    }
+    .forproduct{
+        width: 363px !important;
+         margin-left:-47px !important;
+         margin-top: -59px !important;
+    }
+    .forproduct1{
+        width: 350px !important;
+        margin-left: -107px !important;
+        margin-top: -3px !important;
+    }
+    .forproduct2{
+        margin-left: -50px !important;
+    }
+    .forproduct3{
+        width: 400px;
+        margin-left: -78px;
+    }
+    #konado{
+        margin-top: 256px !important;
+    }
+    .prows{
+        width: 721px !important;
+        margin-left: 34px !important;
+    }
+    .forsolution{
+        margin-left: 158px;
+    }
+    .forsolution1{
+        width: 49% !important;
+        margin-left: 284px !important;
+
+    }
+    .forsolution2{
+        width: 257px !important;
+        margin-left: 290px !important;
+    }
+    .forsolution3{
+        margin-right: -320px !important;
+    }
+    .forsolution4{
+        max-width: 51% !important;
+        margin-right: 645px !important;
+        margin-top: 31px !important;
+    }
+    .forsolution5{
+        max-width: 72% !important;
+        margin-right: 351px !important;
+        margin-left: 126px !important;
+        margin-top: 93px !important;
+    }
+    .forsolution6{
+        margin-left: 2px !important;
+        font-size: 49px;
+    }
+    .forservices{
+
+        width: 296px !important;
+        margin-left: -65px !important;
+        margin-top: -70px !important;
+    
+    }
+    .forservices1{
+        
+        width: 306px !important;
+        margin-left: -65px !important;
+        margin-top: 1px !important;
+        
+    }
+    .forservices2{
+        width: 322px;
+        margin-left: -56px;
+        margin-top: -121px !important;
+    }
+    .forservices3{
+        margin-left: -60px !important;
+    }
+    #sheading{
+        height: 100vh !important;
+    }
+}
+
+@media only screen and (width: 768px) {
+    .platform-item img {
+        width: 60px;
+        height: auto; 
+    }
+    .platform-item h5,
+    .platform-item p {
+        font-size: 10px;
+        margin-left: 15px!important;
+    }
+    .lastimg{
+        display: none !important;
+    }
+    .images{
+        width: 142% !important;
+        margin-left: -41px !important;
+    }
+    .modal-content{
+        margin-left: 40px;
+    }
+    .dropdown-menu{
+        text-align: center;
+    }
+}
+
