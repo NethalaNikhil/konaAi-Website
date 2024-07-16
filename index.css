@@ -380,6 +380,36 @@ body, html {
    width: 644px;
 }
 @media (max-width: 600px) {
+
+  
+    .fortablet4{
+        width: 317px;
+        margin-left: -51px !important;
+    }
+    .msolution5{
+        margin-left: -66px !important;
+    }
+    .msolution4{
+        font-size: 50px !important;
+    }
+    .msolution3{
+        width: 71% !important;
+        margin-left: 56px !important;
+        font-size: 18px !important;
+    }
+    .msolution2{
+        margin-top: 240px !important
+    }
+    .msoluion1{
+        margin-top: -414px !important
+    }
+    .bgimage1{
+        left: -128px !important;
+    }
+    .msolution{
+        width: 118% !important;
+        margin-left: -40px !important;
+    }
     #productHeading{
         height: 150vh;
     }
@@ -515,7 +545,9 @@ body, html {
         margin-left: -23px !important;
         width: 154px;
     }
-
+    #call{
+        right: 30px;
+    }
     #soheadfont {
         width: 113% !important;
         padding-top: 10px !important;
@@ -557,7 +589,7 @@ body, html {
         margin-left: 9px;
     }
     .simg2 {
-        max-width: 220% !important;
+        max-width: 350% !important;
         margin-left: -172px;
     }
     .forproduct4{
@@ -571,11 +603,15 @@ body, html {
         width: 308px;
         font-size: 44px;
     }
+
    
 }
 .forbg{
     background-color: rgb(243,250,249);
 
+}
+.gradient-text2{
+    background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #EAEDFB 100%);
 }
 .gradient-text {
     background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
@@ -666,6 +702,10 @@ body, html {
 
 @media (min-width: 1800px) {
 
+    .bgimage1{
+        left: 498px !important;
+    }
+
     .prows{
         margin-left: 800px !important;
     }
@@ -703,7 +743,7 @@ body, html {
     }
     .fortablet5{
         width: 119px !important;
-        margin-left: -40px !important;
+        margin-left: -8px !important;
     }
     .fortablet6{
         margin-left: 49px !important;
@@ -736,7 +776,8 @@ body, html {
         margin-left: 34px !important;
     }
     .forsolution{
-        margin-left: 158px;
+        margin-left: 281px !important;
+        width: 49%;
     }
     .forsolution1{
         width: 49% !important;
@@ -764,6 +805,18 @@ body, html {
     .forsolution6{
         margin-left: 2px !important;
         font-size: 49px;
+    }
+    .fortablet7{
+        margin-top: -202px !important;
+    }
+    .msolution2{
+    margin-left: -10px !important;
+    margin-bottom: 120px !important;
+    margin-top: 324px !important;
+    }
+    .msolution3{
+        width: 30% !important;
+        margin-left: 267px !important;
     }
     .forservices{
 
@@ -817,3 +870,14 @@ body, html {
     }
 }
 
+.bgimage1{
+    position: relative;
+    top: -44px;
+    left: 70px;
+}
+.bgimage2{
+    position: relative;
+    z-index: -1;
+    height: 100vh; 
+    width: 100%;  
+}
