@@ -494,8 +494,9 @@ body, html {
         margin-top: 176px !important;
     }
     .simg1{
-        max-width: 131% !important;
+        max-width: 107% !important;
         margin-left: -41px;
+        margin-top: 20px;
     }
     .shead2{
         width: 327px !important;
@@ -513,6 +514,9 @@ body, html {
     .freetxt{
         margin-left: -23px !important;
         width: 154px;
+    }
+    #call{
+        right: 59px;
     }
     #soheadfont {
         width: 113% !important;
@@ -555,7 +559,7 @@ body, html {
         margin-left: 9px;
     }
     .simg2 {
-        max-width: 333% !important;
+        max-width: 200% !important;
         margin-left: -165px;
     }
     .forproduct4{
