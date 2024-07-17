@@ -186,7 +186,7 @@
         margin-bottom: 10px;
     }
     .mainHeading {
-        font-size: 49px;
+        font-size: 49px !important;
     }
     #image2 {
         margin-top: 100px;
@@ -385,13 +385,16 @@ body, html {
         left: -1px;
        
     }
+    .movingleft{
+        margin-left: 0px !important;
+    }
 
     .formobile1{
         margin-left: -33px;
     }
     .fortablet4{
-        width: 317px !important;
-        margin-left: -49px !important;
+        width: 351px !important;
+        margin-left: -46px !important;
     }
     .msolution5{
         margin-left: -66px !important;
@@ -593,7 +596,7 @@ body, html {
         margin-left: 9px;
     }
     .simg2 {
-        max-width: 303% !important;
+        max-width: 317% !important;
         margin-left: -172px;
     }
     .forproduct4{
