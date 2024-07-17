@@ -381,10 +381,17 @@ body, html {
 }
 @media (max-width: 600px) {
 
-  
+        .navbar-brand img {
+        left: -1px;
+       
+    }
+
+    .formobile1{
+        margin-left: -33px;
+    }
     .fortablet4{
-        width: 317px;
-        margin-left: -51px !important;
+        width: 317px !important;
+        margin-left: -49px !important;
     }
     .msolution5{
         margin-left: -66px !important;
@@ -545,9 +552,6 @@ body, html {
         margin-left: -23px !important;
         width: 154px;
     }
-    #call{
-        right: 30px;
-    }
     #soheadfont {
         width: 113% !important;
         padding-top: 10px !important;
@@ -589,7 +593,7 @@ body, html {
         margin-left: 9px;
     }
     .simg2 {
-        max-width: 350% !important;
+        max-width: 303% !important;
         margin-left: -172px;
     }
     .forproduct4{
