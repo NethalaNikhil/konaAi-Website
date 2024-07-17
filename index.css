@@ -595,8 +595,10 @@ body, html {
         margin-top: 15px;
         margin-left: 9px;
     }
-    .simg{
-        
+    .simg2 {
+        max-width: 312% !important;
+        margin-left: -174px !important;
+        margin-top: -139px !important;
     }
     .forproduct4{
         max-width: 42%;
