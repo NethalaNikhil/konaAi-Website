@@ -385,6 +385,7 @@ body, html {
         left: -1px;
        
     }
+   
     .movingleft{
         margin-left: 0px !important;
     }
@@ -594,11 +595,6 @@ body, html {
         width: 100%;
         margin-top: 15px;
         margin-left: 9px;
-    }
-    .simg2 {
-        max-width: 150% !important;
-        margin-left: -174px !important;
-        margin-top: -139px !important;
     }
     .forproduct4{
         max-width: 42%;
