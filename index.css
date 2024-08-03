@@ -426,11 +426,11 @@ body, html {
     }
     .sicon{
         width: 170px;
-        margin-left: -70px;
+        margin-left: 57px;
     }
     .solicon2{
         width: 220px;
-        margin-left: -99px;
+        margin-left: 15px;
     }
     .solutionhead{
         margin-left: 9px !important;
@@ -549,7 +549,7 @@ body, html {
         padding: 10px !important;
     }
     .sohead{
-        margin-left: -52px !important;
+        margin-left: -13px !important;
         
     }
     .freetxt{
@@ -566,7 +566,7 @@ body, html {
     }
     #soheadfont1{
         width: 344px !important;
-        margin-left: -159px;
+        margin-left: -31px;
         text-align: center;
         font-size: 40px;
     }
@@ -574,7 +574,7 @@ body, html {
         width: 305px !important;
         margin-top: 20px !important;
         font-size: 17px !important;
-        margin-left: -150px !important;
+        margin-left: -18px !important;
         text-align: center;
     }   
     .sohead2 {
