@@ -16,7 +16,7 @@
 
 #divImage {
     height: 30vh;
-    background-image: url("https://konadigital.com/images/herobg.jpg");
+    background-image: url("https://kona-digital.com/images/herobg.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     opacity: 75%;
@@ -24,7 +24,7 @@
 
 #bgimage {
     width: 100%;
-    background-image: url("https://konadigital.com/images/mapimg.png");
+    background-image: url("https://kona-digital.com/images/mapimg.png");
     background-repeat: no-repeat;
 }
 
@@ -345,7 +345,6 @@ body, html {
 
 #productHeading{
     height: 60vh;
-    background-image: url('https://konadigital.com/images/productbanner.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
     opacity: 90%;
@@ -671,7 +670,7 @@ body, html {
 }
 
 /* .platform1{
-    background-image: url("https://konadigital.com/images/whatcanbg.svg");
+    background-image: url("https://kona-digital.com/images/whatcanbg.svg");
     height: 60vh;
     width: 120%;
     position: relative;
